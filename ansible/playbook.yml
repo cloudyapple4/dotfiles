@@ -1,0 +1,14 @@
+---
+- name: Link Config Files
+  hosts: localhost
+  tasks:
+  - name: symlink git config
+    file:
+      src: "{{ ansible_env.PWD | dirname }}/config/git"
+      path: "{{ ansible_env.HOME }}/.config/git"
+      state: link
+  - name: symlink nvim config
+    file:
+      src: "{{ ansible_env.PWD | dirname }}/config/nvim"
+      path: "{{ ansible_env.HOME }}/.config/nvim"
+      state: link
