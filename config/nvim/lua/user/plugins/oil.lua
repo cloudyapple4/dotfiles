@@ -4,7 +4,6 @@ return {
     config = function()
         require("oil").setup({
             skip_confirm_for_simple_edits = true,
-            prompt_save_on_select_new_entry = false,
             keymaps = {
                 ["g?"] = { "actions.show_help", mode = "n" },
                 ["<CR>"] = "actions.select",
@@ -16,7 +15,7 @@ return {
                 ["<C-l>"] = false,
                 ["-"] = { "actions.parent", mode = "n" },
                 ["_"] = false,
-                ["`"] = false,
+                ["`"] = { "actions.cd", mode = "n" },
                 ["~"] = false,
                 ["gs"] = false,
                 ["gx"] = false,
