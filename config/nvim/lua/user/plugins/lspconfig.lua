@@ -41,6 +41,8 @@ return {
 
         local servers = {
             prettierd = {},
+            html = {},
+            ts_ls = {},
             lua_ls = {
                 settings = {
                     Lua = {
