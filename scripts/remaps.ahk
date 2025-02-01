@@ -1,13 +1,18 @@
-﻿; remap capslock to enter
+﻿; shift+esc -> exit script
++Esc::ExitApp 
 
-+CapsLock::CapsLock ; shift+caps -> caps
+; capslock -> enter
+; shift+capslock -> capslock
+
 CapsLock::Enter ; caps -> enter
-+Esc::ExitApp ; shift+esc -> exit script
++CapsLock::CapsLock ; shift+caps -> caps
+
 
 ; window switching shortcuts
+; rAlt+[1-5] -> win+[1-5]
 
->!1::<#1
->!2::<#2
->!3::<#3
->!4::<#4
->!5::<#5
+>!1::#1
+>!2::#2
+>!3::#3
+>!4::#4
+>!5::#5
