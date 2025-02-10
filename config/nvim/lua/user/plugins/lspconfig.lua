@@ -43,6 +43,7 @@ return {
             prettierd = {},
             html = {},
             ts_ls = {},
+            cssls = {},
             lua_ls = {
                 settings = {
                     Lua = {
