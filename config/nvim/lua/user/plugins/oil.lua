@@ -21,6 +21,7 @@ return {
                 ["gx"] = false,
                 ["g."] = { "actions.toggle_hidden", mode = "n" },
                 ["g\\"] = false,
+                ["<C-r>"] = "actions.refresh",
             },
             view_options = {
                 show_hidden = true,
