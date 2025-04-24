@@ -1,8 +1,6 @@
-﻿; shift+esc -> exit script
-+Esc::ExitApp 
+﻿#SingleInstance
 
-; capslock -> esc
-; shift+capslock -> capslock
++Esc::ExitApp 
 
 CapsLock::Esc
 +CapsLock::CapsLock
