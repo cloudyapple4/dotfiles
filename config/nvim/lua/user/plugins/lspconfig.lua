@@ -44,6 +44,8 @@ return {
             html = {},
             ts_ls = {},
             cssls = {},
+            bashls = {},
+            shfmt = {},
             lua_ls = {
                 settings = {
                     Lua = {
