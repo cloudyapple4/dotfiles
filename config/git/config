@@ -4,3 +4,7 @@
 
 [init]
     defaultBranch = main
+
+[alias]
+    lol = log --oneline --decorate
+    graph = log --oneline --graph --decorate
